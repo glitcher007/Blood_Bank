@@ -29,7 +29,7 @@ app.use("/api/v1/admin", require("./routes/adminRoutes"));
 
 
 // static path
-app.use(express.static(path.join(__dirname,'C:\Blood_Bank_Project\client\build')))
+app.use(express.static(path.join(__dirname,'./client/build')))
  // static routes
 
  app.get('*',function(req,res){
